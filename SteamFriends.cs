@@ -80,7 +80,7 @@ namespace Oxide.Plugins
 
             if (httpResponse?.ReasonPhrase == "Unauthorized")
             {
-                DoLog("Unauthorized - Configured steamApiKey cannot be used to query the owner of that key.");
+                DoLog("Unauthorized - Player most likely has their profile set to private or has some exclusion set for their friends list.");
                 return;
             }
 

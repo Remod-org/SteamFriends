@@ -4,7 +4,8 @@ Use the steam api to retrieve a player's friend list.
 
 The player's friend list must be public, and a steam api key is required.
 
-## Configuration
+Data is not saved but should be repopulated on plugin load, or in the very least when players reconnect.
+
 ```json
 {
   "steamApiKey": null,
